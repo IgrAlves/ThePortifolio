@@ -1,0 +1,201 @@
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.container h1{
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    font-size: 60px;
+    color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    left: 5%;
+}
+
+.grid-container{
+    margin-top: 1em;
+    display: grid;
+    background-color: #333;
+    grid-template-columns: auto auto;
+}
+
+.grid-container > div{
+    color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.button{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.margin-img{
+    margin-left: 1em;
+}
+
+.certificados{
+    margin-left: 6em;
+}
+
+section{
+    background-color: #333;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 70px;
+    padding: 10px;
+}
+
+.grid-img > div{
+    text-align: center;
+    padding: 0 20px;
+    color: #f4f4f4;
+}
+
+.jornada{
+    text-align: center;
+    background-color: #333;
+    margin-top: 5em;
+    color: #f4f4f4;
+}
+
+.frase{
+    text-align: center;
+    background-color: #333;
+    color: #f4f4f4;
+    margin-top: 5em;
+}
+
+.trabalha{
+    color: #f4f4f4;
+    margin-left: 3em;
+}
+
+.fim{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 3em;
+}
+
+.fim > div{
+    color: #f4f4f4;
+}
+
+.nascimento{
+    color: gray;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .container h1{
+        position: absolute;
+        top: 190px;
+        right: 20px;
+        font-size: 60px;
+        color: #f4f4f4;
+        font-family: Arial, sans-serif;
+        left: 5%;
+    }
+    
+    .grid-container{
+        margin-top: 1em;
+        display: grid;
+        background-color: #333;
+        grid-template-columns: auto auto;
+    }
+    
+    .grid-container > div{
+        color: #f4f4f4;
+        padding: 20px 0;
+    }
+    
+    .margin-img{
+        margin-left: 1em;
+    }
+    
+    .certificados{
+        margin-left: 6em;
+    }
+    
+    section{
+        background-color: #333;
+    }
+    
+    .grid-img{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 200px 70px;
+        padding: 10px;
+    }
+    
+    .grid-img > div{
+        text-align: center;
+        padding: 0 20px;
+        color: #f4f4f4;
+    }
+    
+    .jornada{
+        text-align: center;
+        background-color: #333;
+        margin-top: 5em;
+        color: #f4f4f4;
+    }
+    
+    .frase{
+        text-align: center;
+        background-color: #333;
+        color: #f4f4f4;
+        margin-top: 5em;
+    }
+    
+    .trabalha{
+        color: #f4f4f4;
+        margin-left: 3em;
+    }
+    
+    .fim{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 3em;
+    }
+    
+    .fim > div{
+        color: #f4f4f4;
+    }
+    
+    .nascimento{
+        color: gray;
+    }
+    
+    footer{
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }   
+}
